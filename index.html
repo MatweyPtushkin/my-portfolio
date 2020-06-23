@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Матвей Птушкин</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- header -->
+      <div class="row section-one" id="section-one">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+          <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#section-three" data-target="anchor">Мои работы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section-four" data-target="anchor">Навыки</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section-five" data-target="anchor">Контакты</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="anchor"><a href="#section-one" data-target="anchor"><img src="images/arrow_up.png"></a></div>
+      </div>
+      
+      <!-- /header -->
+      <!-- about -->
+      <div class="row section-two" id="section-two">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 about">
+          <div class="about-my text-center">
+            <p>Привет, я</p>
+            <h1>Матвей Птушкин</h1>
+            <p>Junior Front-end Developer</p>
+          </div>
+          <div class="social__icons">
+            <div class="icon">
+              <a href="https://vk.com/matwey_ptushkin" target="_blank"
+                ><img src="./images/vk_icon.png"
+              /></a>
+            </div>
+            <div class="icon">
+              <a
+                href="https://www.instagram.com/ptushkin_matwey/"
+                target="_blank"
+                ><img src="./images/instagram_icon.png"
+              /></a>
+            </div>
+            <div class="icon">
+              <a href="https://github.com/MatweyPtushkin" target="_blank"
+                ><img src="./images/git_icon.png"
+              /></a>
+            </div>
+            <div class="icon">
+              <a href="https://codepen.io/Matwey_Ptushkin" target="_blank"
+                ><img src="./images/codepen_icon.png"
+              /></a>
+            </div>
+          </div>
+          <div class="certificate">
+            <img src="images/certificate js.png" data-toggle="modal" data-target="#exampleModal">
+          </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog  modal-dialog-centered modal-xl">    
+            <img src="images/certificate js.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /about -->
+
+      <!-- projects -->
+      <div class="row section-three bg-dark" id="section-three">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <ol class="my-works">
+            <a
+              href="https://tic-tac-toe-2a743.firebaseapp.com/"
+              target="_blank"
+            >
+              <li>Игра крестики-нолики на React.js</li></a
+            >
+            <a
+              href="https://currency-exchange-ef1b1.firebaseapp.com/"
+              target="_blank"
+            >
+              <li>Сайт по обмену валют на React.js (Использовал API)</li></a
+            >
+            <a href='https://matweyptushkin.github.io/MoGo_site/index.html' target="_blank"><li>Верска PSD MoGo</li></a>
+            <a href="https://matweyptushkin.github.io/ActiveBox/index.html" target="_blank"><li>Верска PSD ActiveBox</li></a>
+            <a href="https://matweyptushkin.github.io/web-store-/" target="_blank"><li>Верстка страницы интернет-магазина</li></a>
+          </ol>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <div class="my">
+            <img class="my-photo" src="./images/social_image.png" />
+          </div>
+        </div>
+      </div>
+      <!-- /projects -->
+      <!-- skills -->
+      <div class="row section-four" id="section-four">
+        <div class="col-md-12">
+          <div class="my-skills">
+            <button class="bg-dark skills-button">Мои навыки в HTML</button>
+            <div class="my-skills-html slide-toggle bg-dark">
+              <p>Теги</p>
+              <p>Метатеги</p>
+              <p>Viewport</p>
+              <p>Атрибуты</p>
+              <p>спецсимволы</p>
+              <p>Ссылки</p>
+              <p>Изображения + форматы изображений</p>
+              <p>Списки</p>
+              <p>Таблицы</p>
+              <p>Формы</p>
+              <p>Семантические теги</p>
+              <p>Вставка мультимедиа (видео, аудио)</p>
+            </div>
+            <button class="bg-dark skills-button">Мои навыки в CSS</button>
+            <div class="my-skills-css slide-toggle bg-dark">
+              <p>
+                Основные свойства
+              </p>
+              <p>Селекторы</p>
+              <p>Каскадирование</p>
+              <p>Псевдоэлементы</p>
+              <p>Анимация</p>
+              <p>Flex</p>
+              <p>Адаптивная верстка</p>
+              <p>Float</p>
+            </div>
+            <button class="bg-dark skills-button">Мои навыки в Git</button>
+            <div class="my-skills-git slide-toggle bg-dark">
+              <p>git init</p>
+              <p>git add</p>
+              <p>git remote add</p>
+              <p>git status</p>
+              <p>git commit</p>
+              <p>git push</p>
+              <p>git pull</p>
+              <p>git checkout</p>
+            </div>
+            <button class="bg-dark skills-button">
+              Мои навыки в Java Script
+            </button>
+            <div class="my-skills-js slide-toggle bg-dark">
+              <p>EcmaScript</p>
+              <p>Переменные</p>
+              <p>Типы данных</p>
+              <p>Массивы и иъ методы</p>
+              <p>Объекты и их методы</p>
+              <p>Функции</p>
+              <p>Контекст: bind, call, apply</p>
+              <p>Замыкания</p>
+              <p>Рекурсия</p>
+              <p>Исключения: try, catch</p>
+              <p>Таймеры: setTimeout, setInterval</p>
+              <p>
+                Промисы: new Promise, Promise.all, Promise.race, resolve, reject
+              </p>
+              <p>
+                DOM и методы работы с ним
+              </p>
+              <p>
+                Работа с Element: children, classList, innerHTML,
+                append, getAttribute и тд
+              </p>
+              <p>
+                События: onclick, addEventListener, onchange, oninput,
+                onkeydown, onmousemove, и тд
+              </p>
+              <p>Наследование: prototype, class</p>
+              <p>JSON</p>
+              <p>Работа с LocalStorage</p>
+              <p>AJAX: XMLHttpRequest, fetch</p>
+              <p>
+                API(Пример использования мой сайт по обмену валюты)
+              </p>
+              <p>ООП</p>
+              <p>
+                Node.js(создать package.json, npm install,
+                create-react-app)
+              </p>
+              <p>
+                ES 6: let, const, стрелочные функции, модули, for in, for of,
+                Map, Set, Spread, Rest, Деструктуризация
+              </p>
+              <p>jQuery</p>
+            </div>
+            <button class="bg-dark skills-button">Мои навыки в React</button>
+            <div class="my-skills-react slide-toggle bg-dark">
+              <p>JSX</p>
+              <p>Virtual DOM</p>
+              <p>Компоненты</p>
+              <p>Props</p>
+              <p>State</p>
+              <p>Refs</p>
+              <p>JEST</p>
+              <p>setState</p>
+              <p>Цикл жизни компонента</p>
+              <p>key</p>
+              <p>Фрагменты</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /skills -->
+      <div class="row section-five bg-dark" id="section-five">
+        <div class="col-md-12">
+          <div><p class="tel">
+            Мобильный номер: +7(977)-963-55-71
+          </p></div>
+          <div><p class="mail">
+            Электронная почта: m.ptushkin@inbox.ru
+          </p></div>
+          <div><a
+            href="https://hh.ru/resume/3ff5ea9aff081191030039ed1f3946624c7335"
+            target="_blank"
+          >
+            <p class="portfolio">
+              Ссылка на портфотио в HH
+            </p></div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
