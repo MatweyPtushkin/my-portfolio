@@ -95,12 +95,14 @@ nav {
 }
 
 .certificate {
-  width: 600px;
+  width: 100%;
   margin: 50px auto 0;
 }
 
 .certificate img {
-  width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 40%;
 }
 
 .modal-dialog img {
@@ -117,6 +119,7 @@ nav {
 .my-works {
   text-align: center;
   font-size: 32px;
+  margin-top: 25px;
 }
 
 .my-works a {
@@ -129,13 +132,11 @@ nav {
 }
 
 .my {
-  min-width: 400px;
+  min-width: 780px;
+  position: relative;
 }
 
 .my-photo {
-  position: relative;
-  bottom: 0;
-  right: 0;
   width: 100%;
 }
 
@@ -236,4 +237,14 @@ nav {
 
 .section-five a:hover {
   color: goldenrod;
+}
+
+/* -----------------------MEDIA-------------- */
+
+@media (max-width: 768px) {
+  .certificate img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+  }
 }

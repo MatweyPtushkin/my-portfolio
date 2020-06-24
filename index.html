@@ -24,8 +24,10 @@
     <title>Матвей Птушкин</title>
   </head>
   <body>
+    <section>
     <div class="container-fluid">
       <!-- header -->
+      <header>
       <div class="row section-one" id="section-one">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
           <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -57,14 +59,16 @@
         </div>
         <div class="anchor"><a href="#section-one" data-target="anchor"><img src="images/arrow_up.png"></a></div>
       </div>
+    </header>
       
       <!-- /header -->
       <!-- about -->
+      <article>
       <div class="row section-two" id="section-two">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 about">
           <div class="about-my text-center">
             <p>Привет, я</p>
-            <h1>Матвей Птушкин</h1>
+            <h2>Матвей Птушкин</h2>
             <p>Junior Front-end Developer</p>
           </div>
           <div class="social__icons">
@@ -94,18 +98,23 @@
           <div class="certificate">
             <img src="images/certificate js.png" data-toggle="modal" data-target="#exampleModal">
           </div>
+          <div class="certificate">
+            <img src="images/certificate.react.png" data-toggle="modal" data-target="#exampleModal">
+          </div>
 
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog  modal-dialog-centered modal-xl">    
-            <img src="images/certificate js.png">
+            <img src="images/certificate js.png" class="modal-img">
             </div>
           </div>
         </div>
       </div>
+    </article>
       <!-- /about -->
 
       <!-- projects -->
+      <arcticle>
       <div class="row section-three bg-dark" id="section-three">
         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
           <ol class="my-works">
@@ -121,8 +130,8 @@
             >
               <li>Сайт по обмену валют на React.js (Использовал API)</li></a
             >
-            <a href='https://matweyptushkin.github.io/MoGo_site/index.html' target="_blank"><li>Верска PSD MoGo</li></a>
-            <a href="https://matweyptushkin.github.io/ActiveBox/index.html" target="_blank"><li>Верска PSD ActiveBox</li></a>
+            <a href='https://matweyptushkin.github.io/MoGo_site/index.html' target="_blank"><li>Верстка PSD MoGo</li></a>
+            <a href="https://matweyptushkin.github.io/ActiveBox/index.html" target="_blank"><li>Верстка PSD ActiveBox</li></a>
             <a href="https://matweyptushkin.github.io/web-store-/" target="_blank"><li>Верстка страницы интернет-магазина</li></a>
           </ol>
         </div>
@@ -132,8 +141,10 @@
           </div>
         </div>
       </div>
+    </arcticle>
       <!-- /projects -->
       <!-- skills -->
+      <article>
       <div class="row section-four" id="section-four">
         <div class="col-md-12">
           <div class="my-skills">
@@ -143,7 +154,7 @@
               <p>Метатеги</p>
               <p>Viewport</p>
               <p>Атрибуты</p>
-              <p>спецсимволы</p>
+              <p>Спецсимволы</p>
               <p>Ссылки</p>
               <p>Изображения + форматы изображений</p>
               <p>Списки</p>
@@ -175,6 +186,7 @@
               <p>git push</p>
               <p>git pull</p>
               <p>git checkout</p>
+              <p>git fetch</p>
             </div>
             <button class="bg-dark skills-button">
               Мои навыки в Java Script
@@ -183,7 +195,7 @@
               <p>EcmaScript</p>
               <p>Переменные</p>
               <p>Типы данных</p>
-              <p>Массивы и иъ методы</p>
+              <p>Массивы и их методы</p>
               <p>Объекты и их методы</p>
               <p>Функции</p>
               <p>Контекст: bind, call, apply</p>
@@ -230,8 +242,6 @@
               <p>Компоненты</p>
               <p>Props</p>
               <p>State</p>
-              <p>Refs</p>
-              <p>JEST</p>
               <p>setState</p>
               <p>Цикл жизни компонента</p>
               <p>key</p>
@@ -240,7 +250,9 @@
           </div>
         </div>
       </div>
+    </article>
       <!-- /skills -->
+      <article>
       <div class="row section-five bg-dark" id="section-five">
         <div class="col-md-12">
           <div><p class="tel">
@@ -254,12 +266,14 @@
             target="_blank"
           >
             <p class="portfolio">
-              Ссылка на портфотио в HH
+              Ссылка на портфолио в HH
             </p></div>
           </a>
         </div>
       </div>
     </div>
+  </article>
+  </section>
     <script
   src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
