@@ -140,7 +140,7 @@ nav {
   position: relative;
   display: block;
   width: 80%;
-  bottom: -10px;
+  bottom: 0;
 }
 
 .section-three {
@@ -243,11 +243,19 @@ nav {
 }
 
 /* -----------------------MEDIA-------------- */
+@media (max-width: 1285px) {
+  .my-photo {
+    display: block;
+    width: 80%;
+    bottom: -9px;
+  }
+}
+
 @media (max-width: 1030px) {
   .my-photo {
     display: block;
     width: 80%;
-    bottom: -57px;
+    bottom: -58px;
   }
 }
 
